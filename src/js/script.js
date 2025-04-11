@@ -193,4 +193,13 @@
 
 //Joguinho da adivinhação
 
+//Declaração variavel indefinida
 let palpite;
+const sorteio = Math.floor(Math.random()*10)+1;
+console.log(sorteio)
+
+do{
+    palpite=parseInt(prompt("Escolha um numero entre 1 e 10"))
+}while(palpite !== sorteio)
+
+    alert(`Parabens voce ganhou odatatu ${palpite}`)
